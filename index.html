@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About HTML Tables</title>
+    <style>
+        body {
+            margin: 10%;
+        }
+        h1 {
+            text-align: center;
+        }
+        table {
+        width: 100%;
+            margin: 10px;
+        }
+        table.styles, table.collapse {
+            border-collapse: collapse;
+        }
+        .borders table, .borders th, .borders td, .styles table, .styles th, .styles td, .collapse table, .collapse th, .collapse td {
+            border: 1px solid black;
+        }
+        .styles th, .styles td {
+            background-color: gray;
+        }
+         .round table, .round th, .round td {
+            border: 1px solid black;
+            border-radius: 30%;
+        }
+        .dotted table, .dotted th, .dotted td {
+            border: 1px solid black;
+            border-style: dotted;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <h1>Learnig About Tables</h1>
+        <caption>Data Tables</caption>
+        <tr>
+            <th>Role</th>
+            <th>Name</th>
+            <th>Identity</th>
+            <th>Start Time</th>
+        </tr>
+        <tr>
+            <td>Operations</td>
+            <td>Lia Shelton</td>
+            <td>A1873</td>
+            <td>May-11</td>
+        </tr>
+        <tr>
+            <td>Research</td>
+            <td>Justin Henderson</td>
+            <td>J5867</td>
+            <td>Apr-13</td>
+        </tr>
+        <td>Contracts</td>
+        <td>Angela Walker</td>
+        <td>C346</td>
+        <td>Nov-15</td>
+    </table>
+    <table class="borders">
+        <caption>Border Data Tables</caption>
+        <tr>
+            <th>Role</th>
+            <th>Name</th>
+            <th>Identity</th>
+            <th>Start Time</th>
+        </tr>
+        <tr>
+            <td>Operations</td>
+            <td>Lia Shelton</td>
+            <td>A1873</td>
+            <td>May-11</td>
+        </tr>
+        <tr>
+            <td>Research</td>
+            <td>Justin Henderson</td>
+            <td>J5867</td>
+            <td>Apr-13</td>
+        </tr>
+        <td>Contracts</td>
+        <td>Angela Walker</td>
+        <td>C346</td>
+        <td>Nov-15</td>
+    </table>
+    <table class="collapse">
+        <caption>Collapsed Data Tables</caption>
+        <tr>
+            <th>Role</th>
+            <th>Name</th>
+            <th>Identity</th>
+            <th>Start Time</th>
+        </tr>
+        <tr>
+            <td>Operations</td>
+            <td>Lia Shelton</td>
+            <td>A1873</td>
+            <td>May-11</td>
+        </tr>
+        <tr>
+            <td>Research</td>
+            <td>Justin Henderson</td>
+            <td>J5867</td>
+            <td>Apr-13</td>
+        </tr>
+        <td>Contracts</td>
+        <td>Angela Walker</td>
+        <td>C346</td>
+        <td>Nov-15</td>
+    </table>
+    <table class="styles">
+        <caption>Style Border Data Tables</caption>
+        <tr>
+            <th>Role</th>
+            <th>Name</th>
+            <th>Identity</th>
+            <th>Start Time</th>
+        </tr>
+        <tr>
+            <td>Operations</td>
+            <td>Lia Shelton</td>
+            <td>A1873</td>
+            <td>May-11</td>
+        </tr>
+        <tr>
+            <td>Research</td>
+            <td>Justin Henderson</td>
+            <td>J5867</td>
+            <td>Apr-13</td>
+        </tr>
+        <td>Contracts</td>
+        <td>Angela Walker</td>
+        <td>C346</td>
+        <td>Nov-15</td>
+    </table>
+     <table class="round">
+        <caption>Rounded Border Data Tables</caption>
+        <tr>
+            <th>Role</th>
+            <th>Name</th>
+            <th>Identity</th>
+            <th>Start Time</th>
+        </tr>
+        <tr>
+            <td>Operations</td>
+            <td>Lia Shelton</td>
+            <td>A1873</td>
+            <td>May-11</td>
+        </tr>
+        <tr>
+            <td>Research</td>
+            <td>Justin Henderson</td>
+            <td>J5867</td>
+            <td>Apr-13</td>
+        </tr>
+        <td>Contracts</td>
+        <td>Angela Walker</td>
+        <td>C346</td>
+        <td>Nov-15</td>
+    </table>
+     <table class="dotted">
+        <caption>Dotted Border Data Tables</caption>
+        <tr>
+            <th>Role</th>
+            <th>Name</th>
+            <th>Identity</th>
+            <th>Start Time</th>
+        </tr>
+        <tr>
+            <td>Operations</td>
+            <td>Lia Shelton</td>
+            <td>A1873</td>
+            <td>May-11</td>
+        </tr>
+        <tr>
+            <td>Research</td>
+            <td>Justin Henderson</td>
+            <td>J5867</td>
+            <td>Apr-13</td>
+        </tr>
+        <td>Contracts</td>
+        <td>Angela Walker</td>
+        <td>C346</td>
+        <td>Nov-15</td>
+    </table>
+</body>
+</html>
